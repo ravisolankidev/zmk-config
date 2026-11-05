@@ -7,7 +7,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/pointing.h>
 
 / {
     keymap {
@@ -35,11 +34,11 @@
 
         raise_layer {
             bindings = <
-&trans LCLK   &kp F1     &kp F2    &kp F3    &kp F4    &kp F5     &kp C_PREV     &kp C_NEXT &kp F6          &kp F7          &kp F8        &kp F9           &kp F10    &kp F12
-&trans RCLK   &kp EXCL   &kp AT    &kp HASH  &kp DLLR  &kp PRCNT  &kp C_VOL_DN   &kp C_VOL_UP &kp CARET     &kp AMPS        &kp ASTRK     &kp LPAR         &kp C_PP   &kp PIPE
-&kp TAB     &kp N1     &kp N2    &kp N3    &kp N4    &kp N5     &kp C_MUTE     &kp C_STOP &trans MOVE_LEFT  &trans MOVE_DOWN  &trans MOVE_UP  &trans MOVE_RIGHT  &kp COLON  &kp DQT
-&kp LSHFT   &kp N6     &kp N7    &kp N8    &kp N9    &kp N0     &kp SPACE      &kp RET    &kp N           &kp M           &kp LT        &kp GT           &kp QMARK  &kp RSHFT
-&kp LCTRL   &kp LGUI   &kp LALT  &kp LA(GRAVE)  &mo 3  &kp SPACE  &kp DEL      &kp BSPC   &kp RET         &trans          &kp HOME      &kp PG_DN        &kp PG_UP  &kp END
+&trans      &kp F1     &kp F2    &kp F3    &kp F4    &kp F5     &kp C_PREV     &kp C_NEXT &kp F6     &kp F7     &kp F8     &kp F9     &kp F10    &kp F12
+&trans      &kp EXCL   &kp AT    &kp HASH  &kp DLLR  &kp PRCNT  &kp C_VOL_DN   &kp C_VOL_UP &kp CARET &kp AMPS   &kp ASTRK  &kp LPAR   &kp C_PP   &kp PIPE
+&kp TAB     &kp N1     &kp N2    &kp N3    &kp N4    &kp N5     &kp C_MUTE     &kp C_STOP &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp COLON  &kp DQT
+&kp LSHFT   &kp N6     &kp N7    &kp N8    &kp N9    &kp N0     &kp SPACE      &kp RET    &kp N      &kp M      &kp LT     &kp GT     &kp QMARK  &kp RSHFT
+&kp LCTRL   &kp LGUI   &kp LALT  &kp LA(GRAVE)  &mo 3  &kp SPACE  &kp DEL      &kp BSPC   &kp RET    &trans     &kp HOME   &kp PG_DN  &kp PG_UP  &kp END
             >;
         };
 
